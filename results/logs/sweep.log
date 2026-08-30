@@ -1,0 +1,171 @@
+
+================================================================
+  VIEW SWEEP  run=A  views=1
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=A dataset=cadnet device=cpu views=1 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=0.14M
+  ep   0  L_cls 1.8360  L_rec 0.0000  acc  73.7%
+  ep  30  L_cls 0.0262  L_rec 0.0000  acc  82.2%
+  ep  59  L_cls 0.0290  L_rec 0.0000  acc  83.6%
+  linear probe on z: 82.9%
+  elapsed 3.2s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_A_v1.json
+
+================================================================
+  VIEW SWEEP  run=A  views=3
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=A dataset=cadnet device=cpu views=3 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=0.14M
+  ep   0  L_cls 1.8823  L_rec 0.0000  acc  74.6%
+  ep  30  L_cls 0.0567  L_rec 0.0000  acc  87.3%
+  ep  59  L_cls 0.0159  L_rec 0.0000  acc  88.5%
+  linear probe on z: 88.2%
+  elapsed 3.8s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_A_v3.json
+
+================================================================
+  VIEW SWEEP  run=A  views=6
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=A dataset=cadnet device=cpu views=6 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=0.14M
+  ep   0  L_cls 1.9111  L_rec 0.0000  acc  75.8%
+  ep  30  L_cls 0.0438  L_rec 0.0000  acc  87.8%
+  ep  59  L_cls 0.0183  L_rec 0.0000  acc  88.5%
+  linear probe on z: 87.8%
+  elapsed 3.6s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_A_v6.json
+
+================================================================
+  VIEW SWEEP  run=A  views=12
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=A dataset=cadnet device=cpu views=12 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=0.14M
+  ep   0  L_cls 2.0818  L_rec 0.0000  acc  73.4%
+  ep  30  L_cls 0.0773  L_rec 0.0000  acc  88.2%
+  ep  59  L_cls 0.0121  L_rec 0.0000  acc  91.5%
+  linear probe on z: 89.8%
+  elapsed 4.6s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_A_v12.json
+
+================================================================
+  VIEW SWEEP  run=A  views=20
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=A dataset=cadnet device=cpu views=20 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=0.14M
+  ep   0  L_cls 2.1937  L_rec 0.0000  acc  73.4%
+  ep  30  L_cls 0.1356  L_rec 0.0000  acc  87.1%
+  ep  59  L_cls 0.1429  L_rec 0.0000  acc  87.1%
+  linear probe on z: 90.1%
+  elapsed 4.6s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_A_v20.json
+
+================================================================
+  VIEW SWEEP  run=B  views=1
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=1 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.6764  IoU 0.3126
+  ep  30  L_cls 0.0000  L_rec 0.0759  IoU 0.6714
+  ep  59  L_cls 0.0000  L_rec 0.0388  IoU 0.7155
+  linear probe on z: 82.9%
+  elapsed 1039.3s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_v1.json
+
+================================================================
+  VIEW SWEEP  run=B  views=3
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=3 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.6891  IoU 0.3049
+  ep  30  L_cls 0.0000  L_rec 0.0881  IoU 0.6228
+  ep  59  L_cls 0.0000  L_rec 0.0329  IoU 0.7151
+  linear probe on z: 86.1%
+  elapsed 1043.2s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_v3.json
+
+================================================================
+  VIEW SWEEP  run=B  views=6
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=6 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.6935  IoU 0.2928
+  ep  30  L_cls 0.0000  L_rec 0.0903  IoU 0.6408
+  ep  59  L_cls 0.0000  L_rec 0.0479  IoU 0.6897
+  linear probe on z: 87.3%
+  elapsed 1041.3s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_v6.json
+
+================================================================
+  VIEW SWEEP  run=B  views=12
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=12 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.7124  IoU 0.2538
+  ep  30  L_cls 0.0000  L_rec 0.0887  IoU 0.6472
+  ep  59  L_cls 0.0000  L_rec 0.0387  IoU 0.7269
+  linear probe on z: 89.1%
+  elapsed 1035.0s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_v12.json
+
+================================================================
+  VIEW SWEEP  run=B  views=20
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=20 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.7208  IoU 0.2570
+  ep  30  L_cls 0.0000  L_rec 0.1042  IoU 0.6274
+  ep  59  L_cls 0.0000  L_rec 0.0443  IoU 0.6921
+  linear probe on z: 88.2%
+  elapsed 1037.8s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_v20.json
+/Users/rebecca.cervasio/Downloads/papers/project/mvae/results/plot1_view_sweep.png
+
+================================================================
+  LATENT SWEEP  z=64
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=20 latent=64 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=3.72M
+  ep   0  L_cls 0.0000  L_rec 0.7106  IoU 0.2540
+  ep  30  L_cls 0.0000  L_rec 0.0723  IoU 0.6662
+  ep  59  L_cls 0.0000  L_rec 0.0344  IoU 0.7247
+  linear probe on z: 87.5%
+  elapsed 1032.1s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_z64.json
+
+================================================================
+  LATENT SWEEP  z=256
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=20 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.7208  IoU 0.2570
+  ep  30  L_cls 0.0000  L_rec 0.1042  IoU 0.6274
+  ep  59  L_cls 0.0000  L_rec 0.0443  IoU 0.6921
+  linear probe on z: 88.2%
+  elapsed 1033.6s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_z256.json
+
+================================================================
+  LATENT SWEEP  z=1024
+================================================================
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=20 latent=1024 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=19.95M
+  ep   0  L_cls 0.0000  L_rec 0.7243  IoU 0.2642
+  ep  30  L_cls 0.0000  L_rec 0.1105  IoU 0.6359
+  ep  59  L_cls 0.0000  L_rec 0.0570  IoU 0.7053
+  linear probe on z: 89.1%
+  elapsed 1074.6s -> wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/results/run_sweep_B_z1024.json
+/Users/rebecca.cervasio/Downloads/papers/project/mvae/results/plot3_latent_probe.png

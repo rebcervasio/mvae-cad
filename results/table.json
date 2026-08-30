@@ -1,0 +1,24 @@
+{
+  "A": {
+    "label": "A \u2014 classifier only",
+    "note": "cross-entropy only, labels used",
+    "trained_acc": 0.9099307060241699,
+    "probe_acc": 0.8983833718244804,
+    "iou": null,
+    "n_train": 1694,
+    "n_test": 433,
+    "seed": 0,
+    "elapsed_sec": 6.0
+  },
+  "B": {
+    "label": "B \u2014 autoencoder only",
+    "note": "reconstruction only, NO labels at all",
+    "trained_acc": null,
+    "probe_acc": 0.8822170900692841,
+    "iou": 0.7429486513137817,
+    "n_train": 1694,
+    "n_test": 433,
+    "seed": 0,
+    "elapsed_sec": 2064.5
+  }
+}

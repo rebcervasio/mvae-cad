@@ -1,0 +1,404 @@
+{
+  "config": {
+    "run": "A",
+    "dataset": "cadnet",
+    "name": "seedA_v12_s4",
+    "n_views": 12,
+    "latent_dim": 256,
+    "aggregator": "max",
+    "epochs": 60,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "val_frac": 0.2,
+    "seed": 4,
+    "device": "cpu",
+    "overfit": 0,
+    "gate_iou": 0.95,
+    "dedup": true,
+    "dedup_thresh": 0.999,
+    "eval_every": 5,
+    "lam": null
+  },
+  "seed": 4,
+  "device": "cpu",
+  "n_train": 1670,
+  "n_test": 457,
+  "classes": [
+    "90_degree_elbows",
+    "BackDoors",
+    "Bearing_Blocks",
+    "Bearing_Like_Parts",
+    "Bolt_Like_Parts",
+    "Bracket_like_Parts",
+    "Clips",
+    "Contact_Switches",
+    "Container_Like_Parts",
+    "Contoured_Surfaces",
+    "Curved_Housings",
+    "Cylindrical_Parts",
+    "Discs",
+    "Flange_Like_Parts",
+    "Gear_like_Parts",
+    "Handles",
+    "Intersecting_Pipes",
+    "L_Blocks",
+    "Long_Machine_Elements",
+    "Long_Pins",
+    "Machined_Blocks",
+    "Machined_Plates",
+    "Motor_Bodies",
+    "Non-90_degree_elbows",
+    "Nuts",
+    "Oil_Pans",
+    "Posts",
+    "Prismatic_Stock",
+    "Pulley_Like_Parts",
+    "Rectangular_Housings",
+    "Rocker_Arms",
+    "Round_Change_At_End",
+    "Screw",
+    "Simple_Pipes",
+    "Slender_Links",
+    "Slender_Thin_Plates",
+    "Small_Machined_Blocks",
+    "Spoked_Wheels",
+    "Springs",
+    "T-shaped_parts",
+    "Thick_Plates",
+    "Thin_Plates",
+    "U-shaped_parts"
+  ],
+  "voxel_res": 32,
+  "occupancy": 0.08333510160446167,
+  "pos_weight": 10.99974536895752,
+  "lam": null,
+  "elapsed_sec": 4.6,
+  "trainable_params": 142379,
+  "history": [
+    {
+      "epoch": 0,
+      "l_cls": 2.101926583444287,
+      "l_rec": 0.0,
+      "acc": 0.7199124693870544
+    },
+    {
+      "epoch": 1,
+      "l_cls": 0.7007140178880292,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 2,
+      "l_cls": 0.45347130414611564,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 3,
+      "l_cls": 0.3975624321463579,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 4,
+      "l_cls": 0.37036077419440905,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 5,
+      "l_cls": 0.2552165702275352,
+      "l_rec": 0.0,
+      "acc": 0.8380743861198425
+    },
+    {
+      "epoch": 6,
+      "l_cls": 0.19546693731210904,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 7,
+      "l_cls": 0.16531190379651006,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 8,
+      "l_cls": 0.12930794235118134,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 9,
+      "l_cls": 0.1481170401914034,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 10,
+      "l_cls": 0.1578184947750704,
+      "l_rec": 0.0,
+      "acc": 0.8708971738815308
+    },
+    {
+      "epoch": 11,
+      "l_cls": 0.10940458949119923,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 12,
+      "l_cls": 0.1174640873770514,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 13,
+      "l_cls": 0.10028084529463402,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 14,
+      "l_cls": 0.07379964445522445,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 15,
+      "l_cls": 0.1137386985390843,
+      "l_rec": 0.0,
+      "acc": 0.8884026408195496
+    },
+    {
+      "epoch": 16,
+      "l_cls": 0.08030921111251423,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 17,
+      "l_cls": 0.06233087049986788,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 18,
+      "l_cls": 0.05578478131733255,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 19,
+      "l_cls": 0.06052608064593312,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 20,
+      "l_cls": 0.04173087891481237,
+      "l_rec": 0.0,
+      "acc": 0.9037199020385742
+    },
+    {
+      "epoch": 21,
+      "l_cls": 0.0444077152368462,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 22,
+      "l_cls": 0.03189269343814896,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 23,
+      "l_cls": 0.025225629764581155,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 24,
+      "l_cls": 0.04701769913541164,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 25,
+      "l_cls": 0.04673987019606336,
+      "l_rec": 0.0,
+      "acc": 0.8840262293815613
+    },
+    {
+      "epoch": 26,
+      "l_cls": 0.03210547234929964,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 27,
+      "l_cls": 0.06813682118754187,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 28,
+      "l_cls": 0.186433464021026,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 29,
+      "l_cls": 0.1589825632474469,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 30,
+      "l_cls": 0.09076836234750504,
+      "l_rec": 0.0,
+      "acc": 0.8949671983718872
+    },
+    {
+      "epoch": 31,
+      "l_cls": 0.0583433726465073,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 32,
+      "l_cls": 0.06986143323028192,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 33,
+      "l_cls": 0.05877986553339092,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 34,
+      "l_cls": 0.04211785134017289,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 35,
+      "l_cls": 0.1263978320871017,
+      "l_rec": 0.0,
+      "acc": 0.8993435502052307
+    },
+    {
+      "epoch": 36,
+      "l_cls": 0.060923737861929894,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 37,
+      "l_cls": 0.029482713782836397,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 38,
+      "l_cls": 0.03213011529212985,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 39,
+      "l_cls": 0.07713630230885422,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 40,
+      "l_cls": 0.0612258701512735,
+      "l_rec": 0.0,
+      "acc": 0.8905907869338989
+    },
+    {
+      "epoch": 41,
+      "l_cls": 0.03645038559449374,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 42,
+      "l_cls": 0.014117967369715254,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 43,
+      "l_cls": 0.09894557645834402,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 44,
+      "l_cls": 0.036448786267243925,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 45,
+      "l_cls": 0.046964903626090626,
+      "l_rec": 0.0,
+      "acc": 0.8927789926528931
+    },
+    {
+      "epoch": 46,
+      "l_cls": 0.04446471406336495,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 47,
+      "l_cls": 0.06190009132964525,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 48,
+      "l_cls": 0.017843335059688922,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 49,
+      "l_cls": 0.027449885865361123,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 50,
+      "l_cls": 0.028206779657511744,
+      "l_rec": 0.0,
+      "acc": 0.8884026408195496
+    },
+    {
+      "epoch": 51,
+      "l_cls": 0.01620564318988242,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 52,
+      "l_cls": 0.016654726676904305,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 53,
+      "l_cls": 0.016519649752030918,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 54,
+      "l_cls": 0.01607869983440569,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 55,
+      "l_cls": 0.0166383375578928,
+      "l_rec": 0.0,
+      "acc": 0.9080962538719177
+    },
+    {
+      "epoch": 56,
+      "l_cls": 0.014917920687525885,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 57,
+      "l_cls": 0.010338546677484194,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 58,
+      "l_cls": 0.02365472810302389,
+      "l_rec": 0.0
+    },
+    {
+      "epoch": 59,
+      "l_cls": 0.023456313653995805,
+      "l_rec": 0.0,
+      "acc": 0.8949671983718872
+    }
+  ],
+  "final_epoch": 59,
+  "final_l_cls": 0.023456313653995805,
+  "final_l_rec": 0.0,
+  "final_acc": 0.8949671983718872,
+  "probe": {
+    "probe_acc": 0.9059080962800875,
+    "probe_train_acc": 1.0,
+    "n_train": 1670,
+    "n_test": 457
+  },
+  "checkpoint": "/Users/rebecca.cervasio/Downloads/papers/project/mvae/results/ckpt_seedA_v12_s4.pt"
+}

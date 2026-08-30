@@ -1,0 +1,40 @@
+{
+  "torch": "2.13.0",
+  "resolved_device": "mps",
+  "attempts": [
+    {
+      "device": "mps",
+      "ok": true,
+      "error": null,
+      "out_shape": [
+        8,
+        1,
+        32,
+        32,
+        32
+      ],
+      "loss": 0.8601125478744507,
+      "grad_absmean": 9.716100976220332e-06,
+      "fwd_bwd_ms": 166.35,
+      "first_call_ms": 207.02
+    },
+    {
+      "device": "cpu",
+      "ok": true,
+      "error": null,
+      "out_shape": [
+        8,
+        1,
+        32,
+        32,
+        32
+      ],
+      "loss": 0.813604474067688,
+      "grad_absmean": 9.730487363412976e-06,
+      "fwd_bwd_ms": 85.27,
+      "first_call_ms": 94.37
+    }
+  ],
+  "decoder_device": "mps",
+  "verdict": "ConvTranspose3d works on mps. No fallback needed."
+}

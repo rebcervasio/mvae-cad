@@ -1,0 +1,61 @@
+{
+  "note": "Run B seed noise, 4 seeds per view count. STOPPED AT EPOCH 30 (low battery). Comparison is apples-to-apples at fixed epoch. Rerun to 60 epochs to tighten.",
+  "epochs_completed": 30,
+  "seeds": 4,
+  "by_views": {
+    "1": {
+      "0": {
+        "mean": 0.32767500000000005,
+        "std": 0.01336513654999455,
+        "n": 4,
+        "values": [
+          0.3126,
+          0.3422,
+          0.3162,
+          0.3397
+        ]
+      },
+      "30": {
+        "mean": 0.678075,
+        "std": 0.010514602940672541,
+        "n": 4,
+        "values": [
+          0.6608,
+          0.6892,
+          0.6804,
+          0.6819
+        ]
+      }
+    },
+    "20": {
+      "0": {
+        "mean": 0.2975,
+        "std": 0.02844274951547406,
+        "n": 4,
+        "values": [
+          0.2848,
+          0.3192,
+          0.3288,
+          0.2572
+        ]
+      },
+      "30": {
+        "mean": 0.671875,
+        "std": 0.009294722965209893,
+        "n": 4,
+        "values": [
+          0.6625,
+          0.6628,
+          0.6827,
+          0.6795
+        ]
+      }
+    }
+  },
+  "verdict": {
+    "effect_1_to_20_views": -0.006199999999999983,
+    "seed_noise_std": 0.009904662952941217,
+    "effect_over_noise": 0.6259677920851285,
+    "conclusion": "view count effect is INDISTINGUISHABLE from seed noise"
+  }
+}

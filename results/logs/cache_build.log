@@ -1,0 +1,603 @@
+[cache] dataset=cadnet split=train parts=2127 classes=43
+[cache] device=mps views=20 res=32^3 image=128
+     50/2127    52.0s   0.96 parts/s  eta  36.0 min  kept=50 skipped=0
+    100/2127   106.4s   0.94 parts/s  eta  36.0 min  kept=100 skipped=0
+    150/2127   184.5s   0.81 parts/s  eta  40.5 min  kept=150 skipped=0
+  [voxelize] 2/2452 cells clipped to the lattice bounds
+  [voxelize] 42/2144 cells clipped to the lattice bounds
+  [voxelize] 18/2459 cells clipped to the lattice bounds
+  [voxelize] 30/2192 cells clipped to the lattice bounds
+  [voxelize] 40/2178 cells clipped to the lattice bounds
+    200/2127   235.2s   0.85 parts/s  eta  37.8 min  kept=200 skipped=0
+  [voxelize] 37/294 cells clipped to the lattice bounds
+  [voxelize] 37/294 cells clipped to the lattice bounds
+    250/2127   314.3s   0.80 parts/s  eta  39.3 min  kept=250 skipped=0
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 15/868 cells clipped to the lattice bounds
+  [voxelize] 5/372 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 5/340 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 7/186 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 8/322 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/303 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/285 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/267 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/312 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/285 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/265 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 4/253 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/312 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/285 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/265 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 4/253 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/281 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+    300/2127   367.5s   0.82 parts/s  eta  37.3 min  kept=300 skipped=0
+  [voxelize] 6/281 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/281 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/281 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/281 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/281 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/279 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 18/776 cells clipped to the lattice bounds
+  [voxelize] 6/279 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/279 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/279 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/285 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/285 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/283 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/291 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 12/704 cells clipped to the lattice bounds
+  [voxelize] 6/289 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+    350/2127   407.9s   0.86 parts/s  eta  34.5 min  kept=350 skipped=0
+  [voxelize] 21/1269 cells clipped to the lattice bounds
+  [voxelize] 21/1265 cells clipped to the lattice bounds
+  [voxelize] 16/1262 cells clipped to the lattice bounds
+    400/2127   466.2s   0.86 parts/s  eta  33.5 min  kept=400 skipped=0
+  [voxelize] 20/1302 cells clipped to the lattice bounds
+  [voxelize] 23/1324 cells clipped to the lattice bounds
+  [voxelize] 19/1287 cells clipped to the lattice bounds
+  [voxelize] 26/1343 cells clipped to the lattice bounds
+  [voxelize] 18/1268 cells clipped to the lattice bounds
+  [voxelize] 8/794 cells clipped to the lattice bounds
+  [voxelize] 16/1300 cells clipped to the lattice bounds
+    450/2127   512.5s   0.88 parts/s  eta  31.8 min  kept=450 skipped=0
+  [voxelize] 1/806 cells clipped to the lattice bounds
+  [voxelize] 1/806 cells clipped to the lattice bounds
+    500/2127   579.8s   0.86 parts/s  eta  31.4 min  kept=500 skipped=0
+    550/2127   633.2s   0.87 parts/s  eta  30.3 min  kept=550 skipped=0
+  [voxelize] 70/2672 cells clipped to the lattice bounds
+  [voxelize] 12/4130 cells clipped to the lattice bounds
+  [voxelize] 24/1906 cells clipped to the lattice bounds
+  [voxelize] 26/1880 cells clipped to the lattice bounds
+  [voxelize] 19/1856 cells clipped to the lattice bounds
+  [voxelize] 19/1856 cells clipped to the lattice bounds
+  [voxelize] 28/1674 cells clipped to the lattice bounds
+  [voxelize] 39/1961 cells clipped to the lattice bounds
+  [voxelize] 39/1961 cells clipped to the lattice bounds
+  [voxelize] 54/1092 cells clipped to the lattice bounds
+  [voxelize] 54/1092 cells clipped to the lattice bounds
+  [voxelize] 55/1908 cells clipped to the lattice bounds
+  [voxelize] 70/2248 cells clipped to the lattice bounds
+    600/2127   683.3s   0.88 parts/s  eta  29.0 min  kept=600 skipped=0
+  [voxelize] 70/2152 cells clipped to the lattice bounds
+  [voxelize] 37/2005 cells clipped to the lattice bounds
+  [voxelize] 70/2138 cells clipped to the lattice bounds
+  [voxelize] 12/1976 cells clipped to the lattice bounds
+  [voxelize] 70/2595 cells clipped to the lattice bounds
+  [voxelize] 12/1960 cells clipped to the lattice bounds
+  [voxelize] 92/2529 cells clipped to the lattice bounds
+  [voxelize] 10/1535 cells clipped to the lattice bounds
+  [voxelize] 70/1810 cells clipped to the lattice bounds
+  [voxelize] 10/1496 cells clipped to the lattice bounds
+  [voxelize] 70/1810 cells clipped to the lattice bounds
+  [voxelize] 10/1488 cells clipped to the lattice bounds
+  [voxelize] 54/1799 cells clipped to the lattice bounds
+  [voxelize] 10/1436 cells clipped to the lattice bounds
+  [voxelize] 18/1099 cells clipped to the lattice bounds
+  [voxelize] 24/1552 cells clipped to the lattice bounds
+  [voxelize] 52/1266 cells clipped to the lattice bounds
+  [voxelize] 28/1568 cells clipped to the lattice bounds
+  [voxelize] 52/1266 cells clipped to the lattice bounds
+  [voxelize] 28/1498 cells clipped to the lattice bounds
+  [voxelize] 51/1613 cells clipped to the lattice bounds
+  [voxelize] 28/1506 cells clipped to the lattice bounds
+  [voxelize] 51/1612 cells clipped to the lattice bounds
+  [voxelize] 28/1486 cells clipped to the lattice bounds
+  [voxelize] 70/2327 cells clipped to the lattice bounds
+  [voxelize] 69/2124 cells clipped to the lattice bounds
+  [voxelize] 35/2386 cells clipped to the lattice bounds
+  [voxelize] 56/3472 cells clipped to the lattice bounds
+  [voxelize] 42/1857 cells clipped to the lattice bounds
+  [voxelize] 42/1857 cells clipped to the lattice bounds
+  [voxelize] 18/1968 cells clipped to the lattice bounds
+    650/2127   728.1s   0.89 parts/s  eta  27.6 min  kept=650 skipped=0
+  [voxelize] 56/2043 cells clipped to the lattice bounds
+  [voxelize] 60/2326 cells clipped to the lattice bounds
+  [voxelize] 56/2079 cells clipped to the lattice bounds
+  [voxelize] 48/2428 cells clipped to the lattice bounds
+  [voxelize] 6/772 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 48/2428 cells clipped to the lattice bounds
+  [voxelize] 18/1760 cells clipped to the lattice bounds
+  [voxelize] 27/1749 cells clipped to the lattice bounds
+  [voxelize] 18/1760 cells clipped to the lattice bounds
+  [voxelize] 68/2300 cells clipped to the lattice bounds
+  [voxelize] 18/1736 cells clipped to the lattice bounds
+  [voxelize] 18/1744 cells clipped to the lattice bounds
+  [voxelize] 30/2216 cells clipped to the lattice bounds
+  [voxelize] 30/2216 cells clipped to the lattice bounds
+  [voxelize] 68/2300 cells clipped to the lattice bounds
+  [voxelize] 30/2232 cells clipped to the lattice bounds
+  [voxelize] 8/2343 cells clipped to the lattice bounds
+  [voxelize] 30/2240 cells clipped to the lattice bounds
+  [voxelize] 8/2343 cells clipped to the lattice bounds
+  [voxelize] 42/2632 cells clipped to the lattice bounds
+  [voxelize] 35/2607 cells clipped to the lattice bounds
+  [voxelize] 35/2607 cells clipped to the lattice bounds
+    700/2127   780.4s   0.90 parts/s  eta  26.5 min  kept=700 skipped=0
+  [voxelize] 7/2464 cells clipped to the lattice bounds
+  [voxelize] 7/2464 cells clipped to the lattice bounds
+  [voxelize] 8/3820 cells clipped to the lattice bounds
+  [voxelize] 30/2216 cells clipped to the lattice bounds
+  [voxelize] 30/2240 cells clipped to the lattice bounds
+  [voxelize] 40/3056 cells clipped to the lattice bounds
+  [voxelize] 30/2216 cells clipped to the lattice bounds
+  [voxelize] 22/2802 cells clipped to the lattice bounds
+  [voxelize] 30/2176 cells clipped to the lattice bounds
+  [voxelize] 30/2120 cells clipped to the lattice bounds
+  [voxelize] 10/360 cells clipped to the lattice bounds
+  [voxelize] 11/606 cells clipped to the lattice bounds
+  [voxelize] 7/425 cells clipped to the lattice bounds
+  [voxelize] 7/419 cells clipped to the lattice bounds
+  [voxelize] 6/418 cells clipped to the lattice bounds
+  [voxelize] 6/422 cells clipped to the lattice bounds
+  [voxelize] 7/415 cells clipped to the lattice bounds
+  [voxelize] 10/772 cells clipped to the lattice bounds
+  [voxelize] 12/574 cells clipped to the lattice bounds
+  [voxelize] 13/629 cells clipped to the lattice bounds
+  [voxelize] 14/664 cells clipped to the lattice bounds
+  [voxelize] 12/601 cells clipped to the lattice bounds
+  [voxelize] 37/1242 cells clipped to the lattice bounds
+  [voxelize] 21/1012 cells clipped to the lattice bounds
+  [voxelize] 16/1190 cells clipped to the lattice bounds
+    750/2127   828.2s   0.91 parts/s  eta  25.3 min  kept=750 skipped=0
+  [voxelize] 9/953 cells clipped to the lattice bounds
+  [voxelize] 15/1022 cells clipped to the lattice bounds
+  [voxelize] 21/900 cells clipped to the lattice bounds
+  [voxelize] 29/1010 cells clipped to the lattice bounds
+  [voxelize] 12/1024 cells clipped to the lattice bounds
+  [voxelize] 9/840 cells clipped to the lattice bounds
+  [voxelize] 9/618 cells clipped to the lattice bounds
+  [voxelize] 23/916 cells clipped to the lattice bounds
+  [voxelize] 9/958 cells clipped to the lattice bounds
+  [voxelize] 9/1027 cells clipped to the lattice bounds
+  [voxelize] 16/1032 cells clipped to the lattice bounds
+  [voxelize] 25/964 cells clipped to the lattice bounds
+  [voxelize] 37/1199 cells clipped to the lattice bounds
+  [voxelize] 25/1004 cells clipped to the lattice bounds
+  [voxelize] 29/1131 cells clipped to the lattice bounds
+  [voxelize] 9/1072 cells clipped to the lattice bounds
+  [voxelize] 25/1015 cells clipped to the lattice bounds
+  [voxelize] 37/1163 cells clipped to the lattice bounds
+  [voxelize] 10/982 cells clipped to the lattice bounds
+    800/2127   867.7s   0.92 parts/s  eta  24.0 min  kept=800 skipped=0
+    850/2127   908.0s   0.94 parts/s  eta  22.7 min  kept=850 skipped=0
+  [voxelize] 3/99 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 3/99 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 3/308 cells clipped to the lattice bounds
+  [voxelize] 12/428 cells clipped to the lattice bounds
+  [voxelize] 12/428 cells clipped to the lattice bounds
+  [voxelize] 15/474 cells clipped to the lattice bounds
+  [voxelize] 35/829 cells clipped to the lattice bounds
+  [voxelize] 9/274 cells clipped to the lattice bounds
+  [voxelize] 2/370 cells clipped to the lattice bounds
+  [voxelize] 1/213 cells clipped to the lattice bounds
+  [voxelize] 12/398 cells clipped to the lattice bounds
+  [voxelize] 14/408 cells clipped to the lattice bounds
+  [voxelize] 34/774 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 12/432 cells clipped to the lattice bounds
+  [voxelize] 12/428 cells clipped to the lattice bounds
+    900/2127   951.0s   0.95 parts/s  eta  21.6 min  kept=900 skipped=0
+  [voxelize] 12/428 cells clipped to the lattice bounds
+  [voxelize] 11/304 cells clipped to the lattice bounds
+  [voxelize] 11/277 cells clipped to the lattice bounds
+  [voxelize] 24/606 cells clipped to the lattice bounds
+  [voxelize] 33/810 cells clipped to the lattice bounds
+  [voxelize] 33/810 cells clipped to the lattice bounds
+  [voxelize] 33/810 cells clipped to the lattice bounds
+  [voxelize] 33/810 cells clipped to the lattice bounds
+  [voxelize] 33/810 cells clipped to the lattice bounds
+  [voxelize] 33/946 cells clipped to the lattice bounds
+  [voxelize] 40/947 cells clipped to the lattice bounds
+  [voxelize] 40/946 cells clipped to the lattice bounds
+  [voxelize] 31/926 cells clipped to the lattice bounds
+  [voxelize] 21/435 cells clipped to the lattice bounds
+  [voxelize] 21/435 cells clipped to the lattice bounds
+  [voxelize] 25/312 cells clipped to the lattice bounds
+  [voxelize] 25/312 cells clipped to the lattice bounds
+  [voxelize] 25/312 cells clipped to the lattice bounds
+  [voxelize] 25/312 cells clipped to the lattice bounds
+  [voxelize] 25/246 cells clipped to the lattice bounds
+  [voxelize] 25/246 cells clipped to the lattice bounds
+  [voxelize] 23/336 cells clipped to the lattice bounds
+  [voxelize] 23/341 cells clipped to the lattice bounds
+  [voxelize] 9/380 cells clipped to the lattice bounds
+  [voxelize] 21/407 cells clipped to the lattice bounds
+  [voxelize] 21/538 cells clipped to the lattice bounds
+  [voxelize] 14/1122 cells clipped to the lattice bounds
+  [voxelize] 14/1122 cells clipped to the lattice bounds
+  [voxelize] 9/854 cells clipped to the lattice bounds
+    950/2127   999.9s   0.95 parts/s  eta  20.6 min  kept=950 skipped=0
+  [voxelize] 9/721 cells clipped to the lattice bounds
+  [voxelize] 9/384 cells clipped to the lattice bounds
+  [voxelize] 37/658 cells clipped to the lattice bounds
+  [voxelize] 37/658 cells clipped to the lattice bounds
+  [voxelize] 37/658 cells clipped to the lattice bounds
+  [voxelize] 9/434 cells clipped to the lattice bounds
+  [voxelize] 9/510 cells clipped to the lattice bounds
+  [voxelize] 9/510 cells clipped to the lattice bounds
+  [voxelize] 10/525 cells clipped to the lattice bounds
+  [voxelize] 10/524 cells clipped to the lattice bounds
+  [voxelize] 8/594 cells clipped to the lattice bounds
+  [voxelize] 8/594 cells clipped to the lattice bounds
+  [voxelize] 21/794 cells clipped to the lattice bounds
+  [voxelize] 9/538 cells clipped to the lattice bounds
+  [voxelize] 25/538 cells clipped to the lattice bounds
+  [voxelize] 9/538 cells clipped to the lattice bounds
+  [voxelize] 21/557 cells clipped to the lattice bounds
+  [voxelize] 37/774 cells clipped to the lattice bounds
+  [voxelize] 37/814 cells clipped to the lattice bounds
+  [voxelize] 25/794 cells clipped to the lattice bounds
+  [voxelize] 9/213 cells clipped to the lattice bounds
+  [voxelize] 9/213 cells clipped to the lattice bounds
+  [voxelize] 11/319 cells clipped to the lattice bounds
+  [voxelize] 11/319 cells clipped to the lattice bounds
+  [voxelize] 28/940 cells clipped to the lattice bounds
+  [voxelize] 35/940 cells clipped to the lattice bounds
+   1000/2127  1044.5s   0.96 parts/s  eta  19.6 min  kept=1000 skipped=0
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+   1050/2127  1091.0s   0.96 parts/s  eta  18.7 min  kept=1050 skipped=0
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+   1100/2127  1137.3s   0.97 parts/s  eta  17.7 min  kept=1100 skipped=0
+   1150/2127  1181.2s   0.97 parts/s  eta  16.7 min  kept=1150 skipped=0
+  [voxelize] 9/2504 cells clipped to the lattice bounds
+  [voxelize] 9/2501 cells clipped to the lattice bounds
+  [voxelize] 9/2509 cells clipped to the lattice bounds
+  [voxelize] 7/2289 cells clipped to the lattice bounds
+   1200/2127  1228.3s   0.98 parts/s  eta  15.8 min  kept=1200 skipped=0
+  [voxelize] 9/1504 cells clipped to the lattice bounds
+  [voxelize] 5/1784 cells clipped to the lattice bounds
+  [voxelize] 9/2240 cells clipped to the lattice bounds
+  [voxelize] 5/1764 cells clipped to the lattice bounds
+  [voxelize] 9/1432 cells clipped to the lattice bounds
+  [voxelize] 15/1813 cells clipped to the lattice bounds
+  [voxelize] 9/2402 cells clipped to the lattice bounds
+  [voxelize] 3/680 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 28/2430 cells clipped to the lattice bounds
+   1250/2127  1274.5s   0.98 parts/s  eta  14.9 min  kept=1250 skipped=0
+  [voxelize] 3/1880 cells clipped to the lattice bounds
+  [voxelize] 37/1993 cells clipped to the lattice bounds
+   1300/2127  1322.7s   0.98 parts/s  eta  14.0 min  kept=1300 skipped=0
+   1350/2127  1362.5s   0.99 parts/s  eta  13.1 min  kept=1350 skipped=0
+  [voxelize] 34/4623 cells clipped to the lattice bounds
+  [voxelize] 76/3112 cells clipped to the lattice bounds
+   1400/2127  1411.1s   0.99 parts/s  eta  12.2 min  kept=1400 skipped=0
+  [voxelize] 60/2930 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+   1450/2127  1465.3s   0.99 parts/s  eta  11.4 min  kept=1450 skipped=0
+   1500/2127  1511.9s   0.99 parts/s  eta  10.5 min  kept=1500 skipped=0
+  [voxelize] 12/659 cells clipped to the lattice bounds
+  [voxelize] 9/495 cells clipped to the lattice bounds
+  [voxelize] 9/492 cells clipped to the lattice bounds
+  [voxelize] 9/488 cells clipped to the lattice bounds
+  [voxelize] 45/1797 cells clipped to the lattice bounds
+  [voxelize] 21/1368 cells clipped to the lattice bounds
+  [voxelize] 5/965 cells clipped to the lattice bounds
+  [voxelize] 5/965 cells clipped to the lattice bounds
+  [voxelize] 5/965 cells clipped to the lattice bounds
+  [voxelize] 5/965 cells clipped to the lattice bounds
+  [voxelize] 9/678 cells clipped to the lattice bounds
+  [voxelize] 45/1026 cells clipped to the lattice bounds
+  [voxelize] 45/1004 cells clipped to the lattice bounds
+  [voxelize] 8/709 cells clipped to the lattice bounds
+  [voxelize] 21/740 cells clipped to the lattice bounds
+  [voxelize] 20/1474 cells clipped to the lattice bounds
+  [voxelize] 12/1835 cells clipped to the lattice bounds
+  [voxelize] 18/881 cells clipped to the lattice bounds
+  [voxelize] 57/1075 cells clipped to the lattice bounds
+   1550/2127  1555.9s   1.00 parts/s  eta   9.7 min  kept=1550 skipped=0
+   1600/2127  1603.0s   1.00 parts/s  eta   8.8 min  kept=1600 skipped=0
+   1650/2127  1639.7s   1.01 parts/s  eta   7.9 min  kept=1650 skipped=0
+  [voxelize] 34/774 cells clipped to the lattice bounds
+  [voxelize] 34/774 cells clipped to the lattice bounds
+  [voxelize] 5/616 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 25/834 cells clipped to the lattice bounds
+  [voxelize] 25/834 cells clipped to the lattice bounds
+  [voxelize] 15/554 cells clipped to the lattice bounds
+  [voxelize] 15/674 cells clipped to the lattice bounds
+  [voxelize] 15/774 cells clipped to the lattice bounds
+  [voxelize] 15/642 cells clipped to the lattice bounds
+  [voxelize] 15/650 cells clipped to the lattice bounds
+  [voxelize] 15/606 cells clipped to the lattice bounds
+  [voxelize] 15/610 cells clipped to the lattice bounds
+  [voxelize] 21/590 cells clipped to the lattice bounds
+  [voxelize] 15/774 cells clipped to the lattice bounds
+  [voxelize] 15/886 cells clipped to the lattice bounds
+  [voxelize] 15/894 cells clipped to the lattice bounds
+   1700/2127  1675.8s   1.01 parts/s  eta   7.0 min  kept=1700 skipped=0
+  [voxelize] 15/972 cells clipped to the lattice bounds
+  [voxelize] 15/990 cells clipped to the lattice bounds
+  [voxelize] 15/846 cells clipped to the lattice bounds
+  [voxelize] 15/986 cells clipped to the lattice bounds
+  [voxelize] 15/990 cells clipped to the lattice bounds
+  [voxelize] 15/992 cells clipped to the lattice bounds
+  [voxelize] 15/994 cells clipped to the lattice bounds
+  [voxelize] 15/994 cells clipped to the lattice bounds
+  [voxelize] 15/990 cells clipped to the lattice bounds
+  [voxelize] 15/990 cells clipped to the lattice bounds
+  [voxelize] 15/990 cells clipped to the lattice bounds
+  [voxelize] 15/1002 cells clipped to the lattice bounds
+  [voxelize] 21/998 cells clipped to the lattice bounds
+  [voxelize] 15/786 cells clipped to the lattice bounds
+  [voxelize] 15/774 cells clipped to the lattice bounds
+  [voxelize] 15/766 cells clipped to the lattice bounds
+  [voxelize] 15/758 cells clipped to the lattice bounds
+  [voxelize] 15/750 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/634 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/814 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 15/646 cells clipped to the lattice bounds
+  [voxelize] 1/213 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 4/163 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/215 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 6/215 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 7/210 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 7/241 cells clipped to the lattice bounds
+  [voxelize] 7/241 cells clipped to the lattice bounds
+  [voxelize] 7/241 cells clipped to the lattice bounds
+  [voxelize] 7/231 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 10/354 cells clipped to the lattice bounds
+   1750/2127  1712.3s   1.02 parts/s  eta   6.1 min  kept=1750 skipped=0
+  [voxelize] 10/356 cells clipped to the lattice bounds
+  [voxelize] 14/492 cells clipped to the lattice bounds
+  [voxelize] 14/493 cells clipped to the lattice bounds
+  [voxelize] 26/765 cells clipped to the lattice bounds
+  [voxelize] 30/761 cells clipped to the lattice bounds
+  [voxelize] 30/762 cells clipped to the lattice bounds
+   1800/2127  1749.9s   1.03 parts/s  eta   5.3 min  kept=1800 skipped=0
+  [voxelize] 30/761 cells clipped to the lattice bounds
+  [voxelize] 52/2154 cells clipped to the lattice bounds
+  [voxelize] 28/1586 cells clipped to the lattice bounds
+  [voxelize] 48/1377 cells clipped to the lattice bounds
+  [voxelize] 48/1608 cells clipped to the lattice bounds
+  [voxelize] 48/1437 cells clipped to the lattice bounds
+  [voxelize] 48/1333 cells clipped to the lattice bounds
+  [voxelize] 96/3517 cells clipped to the lattice bounds
+  [voxelize] 14/2860 cells clipped to the lattice bounds
+  [voxelize] 53/1642 cells clipped to the lattice bounds
+  [voxelize] 26/1259 cells clipped to the lattice bounds
+  [voxelize] 30/1336 cells clipped to the lattice bounds
+  [voxelize] 50/2278 cells clipped to the lattice bounds
+  [voxelize] 40/2334 cells clipped to the lattice bounds
+  [voxelize] 38/2189 cells clipped to the lattice bounds
+  [voxelize] 28/2298 cells clipped to the lattice bounds
+  [voxelize] 30/1571 cells clipped to the lattice bounds
+  [voxelize] 30/1567 cells clipped to the lattice bounds
+  [voxelize] 30/1571 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1587 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1595 cells clipped to the lattice bounds
+   1850/2127  1792.8s   1.03 parts/s  eta   4.5 min  kept=1850 skipped=0
+  [voxelize] 30/1575 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1591 cells clipped to the lattice bounds
+  [voxelize] 30/1571 cells clipped to the lattice bounds
+  [voxelize] 30/1607 cells clipped to the lattice bounds
+  [voxelize] 30/1631 cells clipped to the lattice bounds
+  [voxelize] 30/1619 cells clipped to the lattice bounds
+  [voxelize] 30/1636 cells clipped to the lattice bounds
+  [voxelize] 30/1680 cells clipped to the lattice bounds
+  [voxelize] 30/1716 cells clipped to the lattice bounds
+  [voxelize] 30/1728 cells clipped to the lattice bounds
+  [voxelize] 30/1740 cells clipped to the lattice bounds
+  [voxelize] 30/1748 cells clipped to the lattice bounds
+  [voxelize] 30/1644 cells clipped to the lattice bounds
+  [voxelize] 30/1571 cells clipped to the lattice bounds
+  [voxelize] 30/1608 cells clipped to the lattice bounds
+  [voxelize] 30/1476 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1104 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1383 cells clipped to the lattice bounds
+  [voxelize] 30/1427 cells clipped to the lattice bounds
+  [voxelize] 30/1455 cells clipped to the lattice bounds
+  [voxelize] 30/1495 cells clipped to the lattice bounds
+  [voxelize] 30/1579 cells clipped to the lattice bounds
+  [voxelize] 30/1571 cells clipped to the lattice bounds
+  [voxelize] 30/1651 cells clipped to the lattice bounds
+  [voxelize] 7/549 cells clipped to the lattice bounds
+  [voxelize] 4/1013 cells clipped to the lattice bounds
+  [voxelize] 6/579 cells clipped to the lattice bounds
+  [voxelize] 6/657 cells clipped to the lattice bounds
+  [voxelize] 8/1132 cells clipped to the lattice bounds
+  [voxelize] 5/755 cells clipped to the lattice bounds
+  [voxelize] 7/969 cells clipped to the lattice bounds
+  [voxelize] 5/1105 cells clipped to the lattice bounds
+  [voxelize] 4/1123 cells clipped to the lattice bounds
+  [voxelize] 5/1155 cells clipped to the lattice bounds
+  [voxelize] 4/1351 cells clipped to the lattice bounds
+  [voxelize] 5/1407 cells clipped to the lattice bounds
+  [voxelize] 5/1495 cells clipped to the lattice bounds
+  [voxelize] 4/1504 cells clipped to the lattice bounds
+  [voxelize] 3/1553 cells clipped to the lattice bounds
+  [voxelize] 4/1678 cells clipped to the lattice bounds
+  [voxelize] 4/1737 cells clipped to the lattice bounds
+  [voxelize] 4/1799 cells clipped to the lattice bounds
+  [voxelize] 4/1820 cells clipped to the lattice bounds
+  [voxelize] 3/1864 cells clipped to the lattice bounds
+   1900/2127  1831.7s   1.04 parts/s  eta   3.6 min  kept=1900 skipped=0
+  [voxelize] 4/1901 cells clipped to the lattice bounds
+  [voxelize] 2/1913 cells clipped to the lattice bounds
+  [voxelize] 2/2004 cells clipped to the lattice bounds
+  [voxelize] 2/2077 cells clipped to the lattice bounds
+  [voxelize] 2/2089 cells clipped to the lattice bounds
+  [voxelize] 2/2119 cells clipped to the lattice bounds
+  [voxelize] 2/2146 cells clipped to the lattice bounds
+  [voxelize] 1/2148 cells clipped to the lattice bounds
+   1950/2127  1864.8s   1.05 parts/s  eta   2.8 min  kept=1950 skipped=0
+   2000/2127  1900.4s   1.05 parts/s  eta   2.0 min  kept=2000 skipped=0
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+   2050/2127  1932.7s   1.06 parts/s  eta   1.2 min  kept=2050 skipped=0
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 7/231 cells clipped to the lattice bounds
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] WARNING: zero occupied cells
+  [voxelize] 13/314 cells clipped to the lattice bounds
+  [voxelize] 13/314 cells clipped to the lattice bounds
+  [voxelize] 2/780 cells clipped to the lattice bounds
+  [voxelize] 2/780 cells clipped to the lattice bounds
+   2100/2127  1982.8s   1.06 parts/s  eta   0.4 min  kept=2100 skipped=0
+   2127/2127  2003.8s   1.06 parts/s  eta   0.0 min  kept=2127 skipped=0
+
+[cache] wrote /Users/rebecca.cervasio/Downloads/papers/project/mvae/data/cache_cadnet.npz  (35.0 MB)
+  kept 2127  skipped 0
+  feats  [2127, 20, 512]  float16
+  voxels [2127, 32, 32, 32]  bool
+
+  watertight as loaded :  88.6%   <- §5 asks this be reported
+  watertight after repair:  89.4%
+  voxel methods: {'conservative': 1901, 'morphological': 226}
+
+  occupancy mean 8.29%  (p05 1.33%  p95 22.86%)
+  pos_weight = 11.1   <- §15.6, use this in BCEWithLogitsLoss
+  thin-wall ratio mean 0.450; 67.6% of parts over 0.3
+  parts that exist ONLY via dilation (exact would be empty): 6.2%
+  thinnest classes: Thin_Plates 0.93, Clips 0.90, Rectangular_Housings 0.78, Curved_Housings 0.72, Intersecting_Pipes 0.70
+  elapsed 2006.3s

@@ -1,0 +1,25 @@
+# Datasets (7.3 GB — kept local)
+data/
+
+# Model checkpoints (too large for GitHub)
+*.pt
+*.pth
+*.ckpt
+
+# Archives & caches
+*.tar.gz
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

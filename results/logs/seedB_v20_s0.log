@@ -1,0 +1,6 @@
+  dedup: 1716 groups from 2127 parts (411 duplicates, 19.3%)
+[train] run=B dataset=cadnet device=cpu views=20 latent=256 agg=max
+  parts train=1694 test=433 classes=43 res=32^3
+  occupancy=8.30%  pos_weight=11.1  trainable=6.97M
+  ep   0  L_cls 0.0000  L_rec 0.7208  IoU 0.2572
+  ep  30  L_cls 0.0000  L_rec 0.0885  IoU 0.6795
